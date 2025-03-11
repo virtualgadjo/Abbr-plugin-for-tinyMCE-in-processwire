@@ -41,9 +41,9 @@ editor.insertContent(`<abbr title="${data.fulltxt}" data-title="${data.fulltxt}"
 just remember not to remove the genuine title attribute which is the only really accessible one here except if you want to get rid of the default browser tooltip behaviour while staying fully accessible\
 in this case change the line to
 ```
-editor.insertContent(`<abbr aria-labelledby="${data.fulltxt}">${cnt}</abbr>`);
+editor.insertContent(`<abbr aria-label="${data.fulltxt}">${cnt}</abbr>`);
 ```
-with the **aria-labelledby** attribute which is considered even more accessible than the title one
+with the **aria-label** attribute which is considered even more accessible than the title one
 
 ### CSS tip
 
