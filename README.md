@@ -58,7 +58,7 @@ abbr {
 
 /**
  * if there is a title or any attribute you've used
- * could be abbr[aria-labelledby] for example
+ * could be abbr[aria-label] for example
  * the same selectors are available in js if needed
  */
 abbr[title]::after {
